@@ -1,5 +1,6 @@
 import { Download, SectionWrapper, Features } from "./components";
 import assets from "./assets";
+import styles from "./styles/Global";
 
 const App = () => {
   return (
@@ -31,6 +32,11 @@ const App = () => {
         banner="banner02"
       />
       <Download />
+      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>
+          Train React Native <span className="bold"> 2022</span>
+        </p>
+      </div>
     </>
   );
 };
