@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { Download, SectionWrapper, Features } from "./components";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SectionWrapper
+        title="Your own store of Nifty NTFs.Start Selling & Growing"
+        description="Buy,store,collect NFTs,exchange & earn crypto.Join 25+ million people using ProNef Marketplace"
+      />
+    </>
   );
-}
+};
 
 export default App;
